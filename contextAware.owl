@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#"
-     xml:base="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4"
+<rdf:RDF xmlns="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#"
+     xml:base="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:untitled-ontology-4="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4"/>
+     xmlns:contextAware="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#">
+    <owl:Ontology rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl"/>
     
 
 
@@ -22,44 +22,46 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#EnterEnvironment -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#EnterEnvironment -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#EnterEnvironment">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Non-User"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#User"/>
+    <owl:ObjectProperty rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#EnterEnvironment">
+        <rdfs:domain rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Non-User"/>
+        <rdfs:domain rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#User"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#ExitEnvironment -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#ExitEnvironment -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#ExitEnvironment">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Non-User"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#User"/>
+    <owl:ObjectProperty rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#ExitEnvironment">
+        <rdfs:domain rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Non-User"/>
+        <rdfs:domain rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#User"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Ignore -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Ignore -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Ignore">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#User"/>
+    <owl:ObjectProperty rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Ignore">
+        <rdfs:domain rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#User"/>
+        <rdfs:range rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#ServiceProvider"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Respond -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Respond -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Respond">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#User"/>
+    <owl:ObjectProperty rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Respond">
+        <rdfs:domain rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#User"/>
+        <rdfs:range rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#ServiceProvider"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#SendRequest -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#SendRequest -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#SendRequest">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#ServiceProvider"/>
+    <owl:ObjectProperty rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#SendRequest">
+        <rdfs:domain rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#ServiceProvider"/>
     </owl:ObjectProperty>
     
 
@@ -75,48 +77,48 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#e-service -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#e-service -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#e-service">
+    <owl:DatatypeProperty rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#e-service">
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#mobileDevice -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#mobileDevice -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#mobileDevice">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Non-User"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#User"/>
+    <owl:DatatypeProperty rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#mobileDevice">
+        <rdfs:domain rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Non-User"/>
+        <rdfs:domain rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#personType -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#personType -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#personType">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Non-User"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#User"/>
+    <owl:DatatypeProperty rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#personType">
+        <rdfs:domain rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Non-User"/>
+        <rdfs:domain rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#taxNumber -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#taxNumber -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#taxNumber">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Non-User"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#User"/>
+    <owl:DatatypeProperty rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#taxNumber">
+        <rdfs:domain rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Non-User"/>
+        <rdfs:domain rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#userID -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#userID -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#userID">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#User"/>
+    <owl:DatatypeProperty rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#userID">
+        <rdfs:domain rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -133,40 +135,40 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Individual -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Individual -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Individual">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Stakeholder"/>
+    <owl:Class rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Individual">
+        <rdfs:subClassOf rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Stakeholder"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Non-User -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Non-User -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Non-User">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Individual"/>
+    <owl:Class rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Non-User">
+        <rdfs:subClassOf rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Individual"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#ServiceProvider -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#ServiceProvider -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#ServiceProvider">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Stakeholder"/>
+    <owl:Class rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#ServiceProvider">
+        <rdfs:subClassOf rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Stakeholder"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Stakeholder -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Stakeholder -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Stakeholder"/>
+    <owl:Class rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Stakeholder"/>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#User -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#User -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#User">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Individual"/>
+    <owl:Class rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#User">
+        <rdfs:subClassOf rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Individual"/>
     </owl:Class>
     
 
@@ -182,16 +184,16 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#App1 -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#App1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#App1"/>
+    <owl:NamedIndividual rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#App1"/>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#GovDept1 -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#GovDept1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#GovDept1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#ServiceProvider"/>
+    <owl:NamedIndividual rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#GovDept1">
+        <rdf:type rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#ServiceProvider"/>
         <e-service rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ForeignBusinessYearlyLevy</e-service>
         <e-service rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LocalBusinessYearlyLevy</e-service>
         <e-service rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SocialSecurityContribution</e-service>
@@ -199,20 +201,20 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#GovDept2 -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#GovDept2 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#GovDept2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#ServiceProvider"/>
+    <owl:NamedIndividual rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#GovDept2">
+        <rdf:type rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#ServiceProvider"/>
         <e-service rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PoliceReportCollection</e-service>
         <e-service rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TrafficFine</e-service>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#person1 -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#person1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#person1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#User"/>
+    <owl:NamedIndividual rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#person1">
+        <rdf:type rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#User"/>
         <mobileDevice rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Android</mobileDevice>
         <personType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citizen</personType>
         <userID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">govApp_0004</userID>
@@ -220,10 +222,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#person2 -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#person2 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#person2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#User"/>
+    <owl:NamedIndividual rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#person2">
+        <rdf:type rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#User"/>
         <mobileDevice rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IOS</mobileDevice>
         <personType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ForeignResident</personType>
         <userID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">govApp_1309</userID>
@@ -231,10 +233,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#person3 -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#person3 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#person3">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Non-User"/>
+    <owl:NamedIndividual rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#person3">
+        <rdf:type rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Non-User"/>
         <mobileDevice rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IOS</mobileDevice>
         <personType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citizen</personType>
         <taxNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12345</taxNumber>
@@ -242,10 +244,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#person4 -->
+    <!-- https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#person4 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#person4">
-        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2020/6/untitled-ontology-4#Non-User"/>
+    <owl:NamedIndividual rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#person4">
+        <rdf:type rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Non-User"/>
         <mobileDevice rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Android</mobileDevice>
         <personType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foreign-Resident</personType>
     </owl:NamedIndividual>
