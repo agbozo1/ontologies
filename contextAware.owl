@@ -147,6 +147,7 @@
 
     <owl:Class rdf:about="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Non-User">
         <rdfs:subClassOf rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#Individual"/>
+        <owl:disjointWith rdf:resource="https://github.com/agbozo1/ontologies/blob/master/contextAware.owl#ServiceProvider"/>
     </owl:Class>
     
 
